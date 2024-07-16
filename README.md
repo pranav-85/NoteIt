@@ -14,7 +14,7 @@ The Note-Taking App allows users to create, edit, delete, and pin notes. It prov
 - **Pin Notes**: Users can pin notes to keep them at the top of the list.
 - **Sort Notes**: Notes are sorted based on their pinned status and creation date.
 - **Hover Info**: On hovering over a note, the creation and last edited dates are displayed.
-- **Text Editor**: Draft.js is used for the text editor to provide a rich text editing experience.
+- **Text Editor**: Draft.js is used for the text editor.
 
 ## MySQL Database
 
