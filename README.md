@@ -1,6 +1,6 @@
 # Note-Taking App
 
-This project is a note-taking application built with Django for the backend and React for the frontend. It uses MySQL for the database.
+This project is a note-taking application built with Django and Django REST framework for the backend and React for the frontend. It uses MySQL for the database.
 
 ## Project Description
 
