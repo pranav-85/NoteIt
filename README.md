@@ -31,7 +31,7 @@ CREATE TABLE notes (
   updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 ```
-##Project Set-up
+## Project Set-up
 1. Installing necessary back-end frameworks
 ```bash
 pip install django djangorestframework
@@ -47,3 +47,5 @@ python manage.py migrate
 python manage.py runserver
 ```
 4. Open http://localhost:3000 for the app.
+
+<font color="red">**Note: **</font>  Necessary front-end files are available in the assets folder of the NoteIt directory, there is no need to explicitly set up react files. The front-end files are present in the notes directory.
