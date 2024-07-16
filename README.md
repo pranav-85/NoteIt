@@ -48,4 +48,4 @@ python manage.py runserver
 ```
 4. Open http://localhost:3000 for the app.
 
-<font color="red">**Note: **</font>  Necessary front-end files are available in the assets folder of the NoteIt directory, there is no need to explicitly set up react files. The front-end files are present in the notes directory.
+<font color="red">**Note:**</font>  Necessary front-end files are available in the assets folder of the NoteIt directory, there is no need to explicitly set up react files. The front-end files are present in the notes directory.
