@@ -30,3 +30,20 @@ CREATE TABLE notes (
   created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
+```
+##Project Set-up
+1. Installing necessary back-end frameworks
+```bash
+pip install django djangorestframework
+```
+2. Setting up the project files in your local system
+```bash
+git clone <url>
+cd NoteIt
+```
+3. Running the application
+```bash
+python manage.py migrate
+python manage.py runserver
+```
+4. Open http://localhost:3000 for the app.
