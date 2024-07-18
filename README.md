@@ -1,24 +1,25 @@
 # Note-Taking App
 
-This project is a note-taking application built with Django and Django REST framework for the backend and React for the frontend. It uses MySQL for the database.
+This project is a note-taking application built with Django and Django REST framework for the backend and React for the frontend. It utilizes MySQL for the database.
 
 ## Project Description
 
-The Note-Taking App allows users to create, edit, delete, and pin notes. It provides a user-friendly interface to manage notes efficiently. The app displays notes in a card format and allows users to interact with their notes through various actions like editing, deleting, and pinning.
+The Note-Taking App enables users to manage notes efficiently with an intuitive interface. Users can create, edit, delete, and pin notes, enhancing productivity and organization. The app includes user authentication for secure access. It displays notes in a card format and provides features like sorting based on pin status and creation date, hover information for creation and last edited dates, and integration with Draft.js for the text editor.
 
 ## Key Features
 
 - **Create Notes**: Users can create new notes with a default title "Untitled".
-- **Edit Notes**: Users can edit the content and title of existing notes.
-- **Delete Notes**: Users can delete notes.
-- **Pin Notes**: Users can pin notes to keep them at the top of the list.
+- **Edit Notes**: Edit the content and title of existing notes seamlessly.
+- **Delete Notes**: Remove notes that are no longer needed.
+- **Pin Notes**: Pin important notes to keep them prominently displayed.
 - **Sort Notes**: Notes are sorted based on their pinned status and creation date.
-- **Hover Info**: On hovering over a note, the creation and last edited dates are displayed.
-- **Text Editor**: Draft.js is used for the text editor.
+- **Hover Info**: Displays creation and last edited dates on hovering over a note.
+- **Text Editor**: Utilizes Draft.js for rich text editing capabilities.
+- **Authentication**: Secure user authentication system ensures user data privacy and personalized note management.
 
 ## MySQL Database
 
-The database schema for the notes table is as follows:
+The database schema for the notes table remains:
 
 ```sql
 CREATE TABLE notes (
@@ -30,6 +31,7 @@ CREATE TABLE notes (
   created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
+
 ```
 ## Project Set-up
 1. Installing necessary back-end frameworks
