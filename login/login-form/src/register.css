@@ -1,0 +1,155 @@
+.register-container{
+    border: 1px solid white;
+    height: 28em;
+    width: 25em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    position: relative;
+    top: 7em;
+    box-shadow: 1px 4px 6px rgba(75, 112, 212, 0.737);
+}
+
+.register-label{
+    color: rgb(75, 112, 212);
+    font-size: 2.3em;
+    text-decoration: none;
+    margin-bottom: 0.3em;
+}
+
+.name-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.first-name, .last-name{
+    padding: 0;
+    max-height: 5em;
+}
+
+.first-name .first-name-label, .last-name .last-name-label{
+    color: white;
+    font-size: larger;
+    color: rgb(75, 112, 212);
+    font-weight: bold;
+}
+
+.first-name .first-name-field, .last-name .last-name-field{
+    position: relative;
+    bottom: 1em;
+    height: 1.5em;
+    width: 11em;
+    padding: 0.23em 0.2em;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+
+.register-button{
+    position: relative;
+    top: 0.7em;
+    width: 8em;
+    height: 2.5em;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: rgb(47, 64, 253);
+}
+
+.register-button:hover{
+    color: white;
+    background-color: rgb(75, 112, 212);   
+
+}
+
+.register-button span{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.login{
+    position: relative;
+    top: 1.8em;
+    left: 4.5em;
+    color: rgb(75, 112, 212);
+    font-size: 1.1em;
+}
+
+.login a{
+    color: white;
+    cursor: pointer;
+}
+
+.login a:hover{
+    color: rgb(75, 112, 212);
+}
+
+
+.email-register{
+    padding: 0;
+    max-height: 5em;
+}
+
+.email-register .email-register-label{
+    color: white;
+    font-size: larger;
+    color: rgb(75, 112, 212);
+    font-weight: bold;
+}
+
+.email-register .email-register-field{
+    position: relative;
+    bottom: 1em;
+    height: 1.5em;
+    width: 17em;
+    padding: 0.23em 0.2em;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.904);
+    font-size: 1em;
+}
+
+.password-register{
+    padding: 0;
+    /* border: 1px solid white; */
+    max-height: 5em;
+    margin: 0.2em;
+    margin-left: 0;
+}
+
+.password-register .password-register-label{
+    color: white;
+    font-size: larger;
+    color: rgb(75, 112, 212);
+    font-weight: bold;
+}
+
+.password-register .password-register-field{
+    position: relative;
+    bottom: 1em;
+    width: 17em;
+    height: 1.5em;
+    padding: 0.23em 0.2em;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.904);
+    font-size: 1em;
+
+}
+
+.password-register .pass-visibility-register{
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 2rem;
+    position: relative;
+    bottom: 0.8em;
+    border: none;
+    background-color: rgba(8, 8, 8, 0);
+    cursor: pointer;
+}
+
+.error-message-register p{
+    color: red;
+    margin: 0;
+}
