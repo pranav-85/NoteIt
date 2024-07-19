@@ -33,21 +33,4 @@ CREATE TABLE notes (
 );
 
 ```
-## Project Set-up
-1. Installing necessary back-end frameworks
-```bash
-pip install django djangorestframework
-```
-2. Setting up the project files in your local system
-```bash
-git clone <url>
-cd NoteIt
-```
-3. Running the application
-```bash
-python manage.py migrate
-python manage.py runserver
-```
-4. Open http://localhost:3000 for the app.
-
 <p style="color:red"><strong>Note:</strong></p>  Necessary front-end files are available in the assets folder of the NoteIt directory, there is no need to explicitly set up react files. The front-end files are present in the notes directory.
